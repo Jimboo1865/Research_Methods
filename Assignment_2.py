@@ -11,7 +11,7 @@ def position(t,height):
     return y
 
 def main():
-    height = float(input("Enter the hieght in meter from which the obect is dropped: "))
+    height = float(input("Enter the hieght in meters from which the obect is dropped: "))
     t = linspace(0, sqrt(2 * height /g), 100)
     y = position(t,height)
     v = velocity(t)
